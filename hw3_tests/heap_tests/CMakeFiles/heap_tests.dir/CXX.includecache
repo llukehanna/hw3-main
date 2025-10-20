@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/codio/workspace/hw3/heap.h
+functional
+-
+stdexcept
+-
+vector
+-
+algorithm
+-
+
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp
+heap.h
+-
+gtest/gtest.h
+-
+random_generator.h
+-
+queue
+-
+algorithm
+-
+
+testing_utils/./random_generator.h
+random
+-
+vector
+-
+set
+-
+string
+-
+cstdint
+-
+
